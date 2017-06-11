@@ -1,4 +1,4 @@
-{% set build = 1 %}
+{% set build = 2 %}
 {% set version = '3.7.0' %}
 {% set md5 = '816a20040a6a477bd637f397c9fb5b6d' %}
 {% set mpi = os.environ.get('MPI') or 'mpich' %}
@@ -11,6 +11,8 @@ source:
   fn: petsc4py-{{version}}.tar.gz
   url: https://bitbucket.org/petsc/petsc4py/downloads/petsc4py-{{version}}.tar.gz
   md5: {{md5}}
+  patches:
+    - petsc4py_install_conf.patch
 
 build:
   number: {{build}}
@@ -33,6 +35,7 @@ requirements:
 test:
   imports:
     - petsc4py
+    - petsc4py.conf
     - petsc4py.PETSc
 
 about:
