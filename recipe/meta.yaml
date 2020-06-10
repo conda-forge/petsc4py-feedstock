@@ -14,7 +14,7 @@ source:
   sha256: {{sha256}}
 
 build:
-  number: 2
+  number: 3
   script: PETSC_DIR=$PREFIX pip -v install --no-deps .
   skip: true  # [win]
 
