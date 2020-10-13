@@ -9,12 +9,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: petsc4py-{{version}}.tar
-  url: https://pypi.io/packages/source/{{name[0]}}/{{name}}/{{name}}-{{version}}.tar.gz
-  sha256: {{sha256}}
+  fn: petsc4py-{{ version }}.tar
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
   script: PETSC_DIR=$PREFIX pip -v install --no-deps .
   skip: true  # [win]
 
