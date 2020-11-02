@@ -592,4 +592,3 @@ Feedstock Maintainers
 * [@dalcinl](https://github.com/dalcinl/)
 * [@davidbrochart](https://github.com/davidbrochart/)
 * [@minrk](https://github.com/minrk/)
-
