@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_h3815d116d3
+name: linux_aarch64_mpimpichnumpy1.16pyth_he69f33d9ef
 
 platform:
   os: linux
@@ -8,9 +8,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpimpichnumpy1.16python3.6.____cpython
+    CONFIG: linux_aarch64_mpimpichnumpy1.16python3.6.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -31,7 +31,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_h5741b28b4b
+name: linux_aarch64_mpimpichnumpy1.16pyth_hc5f78ce354
 
 platform:
   os: linux
@@ -39,9 +39,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpimpichnumpy1.16python3.7.____cpython
+    CONFIG: linux_aarch64_mpimpichnumpy1.16python3.7.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -62,7 +62,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_h2e3692d925
+name: linux_aarch64_mpimpichnumpy1.16pyth_h491084acc3
 
 platform:
   os: linux
@@ -70,9 +70,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpimpichnumpy1.16python3.8.____cpython
+    CONFIG: linux_aarch64_mpimpichnumpy1.16python3.8.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -93,7 +93,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_h359eeaa1e1
+name: linux_aarch64_mpimpichnumpy1.19pyth_h43e5c8d1dc
 
 platform:
   os: linux
@@ -101,9 +101,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpimpichnumpy1.19python3.9.____cpython
+    CONFIG: linux_aarch64_mpimpichnumpy1.19python3.9.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -124,7 +124,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_hb9650d3700
+name: linux_aarch64_mpiopenmpinumpy1.16py_h4d0b9a376d
 
 platform:
   os: linux
@@ -132,9 +132,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpiopenmpinumpy1.16python3.6.____cpython
+    CONFIG: linux_aarch64_mpiopenmpinumpy1.16python3.6.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -155,7 +155,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_h7b6ea46a44
+name: linux_aarch64_mpiopenmpinumpy1.16py_h33d9a0b450
 
 platform:
   os: linux
@@ -163,9 +163,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpiopenmpinumpy1.16python3.7.____cpython
+    CONFIG: linux_aarch64_mpiopenmpinumpy1.16python3.7.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -186,7 +186,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_hc0f5c5ec78
+name: linux_aarch64_mpiopenmpinumpy1.16py_h86c9735297
 
 platform:
   os: linux
@@ -194,9 +194,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpiopenmpinumpy1.16python3.8.____cpython
+    CONFIG: linux_aarch64_mpiopenmpinumpy1.16python3.8.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
@@ -217,7 +217,7 @@ steps:
 
 ---
 kind: pipeline
-name: linux_aarch64_c_compiler_version7fo_h9f77e79f33
+name: linux_aarch64_mpiopenmpinumpy1.19py_h3dd791c358
 
 platform:
   os: linux
@@ -225,257 +225,9 @@ platform:
 
 steps:
 - name: Install and build
-  image: condaforge/linux-anvil-aarch64
+  image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_c_compiler_version7fortran_compiler_version7mpiopenmpinumpy1.19python3.9.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_hb03c82e687
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpimpichnumpy1.16python3.6.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_h880512ff96
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpimpichnumpy1.16python3.7.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_h59137af0c8
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpimpichnumpy1.16python3.8.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_ha97685ad2f
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpimpichnumpy1.19python3.9.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_hb2c1bb67b5
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpiopenmpinumpy1.16python3.6.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_h28be0ca126
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpiopenmpinumpy1.16python3.7.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_h44d6a6dad8
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpiopenmpinumpy1.16python3.8.____cpython
-    UPLOAD_PACKAGES: True
-    PLATFORM: linux-aarch64
-    BINSTAR_TOKEN:
-      from_secret: BINSTAR_TOKEN
-    FEEDSTOCK_TOKEN:
-      from_secret: FEEDSTOCK_TOKEN
-    STAGING_BINSTAR_TOKEN:
-      from_secret: STAGING_BINSTAR_TOKEN
-  commands:
-    - export FEEDSTOCK_ROOT="$DRONE_WORKSPACE"
-    - export RECIPE_ROOT="$FEEDSTOCK_ROOT/recipe"
-    - export CI=drone
-    - export GIT_BRANCH="$DRONE_BRANCH"
-    - export FEEDSTOCK_NAME=$(basename ${DRONE_REPO_NAME})
-    - sed -i '$ichown -R conda:conda "$FEEDSTOCK_ROOT"' /opt/docker/bin/entrypoint
-    - /opt/docker/bin/entrypoint $FEEDSTOCK_ROOT/.scripts/build_steps.sh
-    - echo "Done building"
-
----
-kind: pipeline
-name: linux_aarch64_c_compiler_version9fo_h0fd37cf351
-
-platform:
-  os: linux
-  arch: arm64
-
-steps:
-- name: Install and build
-  image: condaforge/linux-anvil-aarch64
-  environment:
-    CONFIG: linux_aarch64_c_compiler_version9fortran_compiler_version9mpiopenmpinumpy1.19python3.9.____cpython
+    CONFIG: linux_aarch64_mpiopenmpinumpy1.19python3.9.____cpython
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:
