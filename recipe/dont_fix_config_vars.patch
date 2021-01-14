@@ -1,0 +1,13 @@
+diff --git a/src/binding/petsc4py/conf/baseconf.py b/src/binding/petsc4py/conf/baseconf.py
+index 8a2466a5bd..b0707a65a8 100644
+--- a/src/binding/petsc4py/conf/baseconf.py
++++ b/src/binding/petsc4py/conf/baseconf.py
+@@ -54,6 +54,8 @@ from distutils.errors import DistutilsError
+ def fix_config_vars(names, values):
+     import os, re
+     values = list(values)
++    if 'CONDA_BUILD' in os.environ:
++        return values
+     if sys.platform == 'darwin':
+         if 'ARCHFLAGS' in os.environ:
+             ARCHFLAGS = os.environ['ARCHFLAGS']
