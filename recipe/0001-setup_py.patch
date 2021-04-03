@@ -1,0 +1,46 @@
+From 1306d61fe7ded001c88b114b98f1b5ff7d088335 Mon Sep 17 00:00:00 2001
+From: Lisandro Dalcin <dalcinl@gmail.com>
+Date: Sat, 3 Apr 2021 14:17:42 +0300
+Subject: [PATCH] petsc4py: Cython wrapper generator should not depend on PETSc
+ header files
+
+---
+ src/binding/petsc4py/setup.py | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+diff --git a/src/binding/petsc4py/setup.py b/src/binding/petsc4py/setup.py
+index 671b60ad54..2d9c004f0e 100755
+--- a/setup.py
++++ b/setup.py
+@@ -223,21 +223,12 @@ def run_cython(source, target=None,
+ def build_sources(cmd):
+     from os.path import exists, isdir, join
+ 
+-    pdepends = []
+-    if 'PETSC_DIR' in os.environ:
+-      pd = os.environ['PETSC_DIR']
+-      pdepends = [pd+'/include/*.h',pd+'/include/petsc/private/*.h']
+-      if 'PETSC_ARCH' in os.environ:
+-        pda = os.environ['PETSC_ARCH']
+-        pdepends.append(pd+'/'+pda+'/include/petscconf.h')
+-
+     # petsc4py.PETSc
+     source = 'petsc4py.PETSc.pyx'
+     target = 'petsc4py.PETSc.c'
+     depends = ['include/*/*.pxd',
+                'PETSc/*.pyx',
+                'PETSc/*.pxi']
+-    depends.extend(pdepends)
+     includes = ['include']
+     destdir_h = os.path.join('include', 'petsc4py')
+     run_cython(source, target,
+@@ -249,7 +240,6 @@ def build_sources(cmd):
+     depends = ['include/petsc4py/*.pxd',
+                'libpetsc4py/*.pyx',
+                'libpetsc4py/*.pxi']
+-    depends.extend(pdepends)
+     includes = ['include']
+     run_cython(source,
+                depends=depends, includes=includes,
+-- 
+2.30.2
