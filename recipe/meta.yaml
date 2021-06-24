@@ -3,6 +3,9 @@
 {% set sha256 = "fe744bd9c92557f0a38027f19a419b6e6765a982f531d02e620c79eb1a97bae7" %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
+{% if scalar == "real" %}
+{% set build = build + 100 %}
+{% endif %}
 
 package:
   name: petsc4py
@@ -16,9 +19,12 @@ source:
     - 0001-setup_py.patch
 
 build:
-  number: 0
+  number: {{ build }}
   script: PETSC_DIR=$PREFIX pip -v install --no-deps .
   skip: true  # [win]
+  string: {{ scalar }}_h{{ PKG_HASH }}_{{ build }}
+  track_features:
+    - petsc4py_complex  # [scalar == "complex"]
 
 requirements:
   build:
@@ -29,12 +35,12 @@ requirements:
     - pip
     - numpy
     - {{ mpi }}
-    - petsc {{ version_xy }}.*
+    - petsc {{ version_xy }}.* *{{ scalar }}*
   run:
     - python
     - {{ pin_compatible('numpy') }}
     - {{ mpi }}
-    - petsc # pinned by petsc run_exports
+    - petsc * *{{ scalar }}*  # pinned by petsc run_exports
   run_constrained:
     - mpi4py >=3.0.1
 
