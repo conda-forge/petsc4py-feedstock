@@ -8,23 +8,23 @@ jobs:
     vmImage: macOS-10.15
   strategy:
     matrix:
-      osx_64_mpimpichnumpy1.17python3.6.____cpythonscalarcomplex:
-        CONFIG: osx_64_mpimpichnumpy1.17python3.6.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.18python3.6.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.18python3.6.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpimpichnumpy1.17python3.6.____cpythonscalarreal:
-        CONFIG: osx_64_mpimpichnumpy1.17python3.6.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.18python3.6.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.18python3.6.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpimpichnumpy1.17python3.7.____cpythonscalarcomplex:
-        CONFIG: osx_64_mpimpichnumpy1.17python3.7.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.18python3.7.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.18python3.7.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpimpichnumpy1.17python3.7.____cpythonscalarreal:
-        CONFIG: osx_64_mpimpichnumpy1.17python3.7.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.18python3.7.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.18python3.7.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpimpichnumpy1.17python3.8.____cpythonscalarcomplex:
-        CONFIG: osx_64_mpimpichnumpy1.17python3.8.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.18python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.18python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpimpichnumpy1.17python3.8.____cpythonscalarreal:
-        CONFIG: osx_64_mpimpichnumpy1.17python3.8.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.18python3.8.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.18python3.8.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
       osx_64_mpimpichnumpy1.19python3.7.____73_pypyscalarcomplex:
         CONFIG: osx_64_mpimpichnumpy1.19python3.7.____73_pypyscalarcomplex
@@ -38,23 +38,23 @@ jobs:
       osx_64_mpimpichnumpy1.19python3.9.____cpythonscalarreal:
         CONFIG: osx_64_mpimpichnumpy1.19python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpinumpy1.17python3.6.____cpythonscalarcomplex:
-        CONFIG: osx_64_mpiopenmpinumpy1.17python3.6.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.18python3.6.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.18python3.6.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpinumpy1.17python3.6.____cpythonscalarreal:
-        CONFIG: osx_64_mpiopenmpinumpy1.17python3.6.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.18python3.6.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.18python3.6.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpinumpy1.17python3.7.____cpythonscalarcomplex:
-        CONFIG: osx_64_mpiopenmpinumpy1.17python3.7.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.18python3.7.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.18python3.7.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpinumpy1.17python3.7.____cpythonscalarreal:
-        CONFIG: osx_64_mpiopenmpinumpy1.17python3.7.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.18python3.7.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.18python3.7.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpinumpy1.17python3.8.____cpythonscalarcomplex:
-        CONFIG: osx_64_mpiopenmpinumpy1.17python3.8.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.18python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.18python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpinumpy1.17python3.8.____cpythonscalarreal:
-        CONFIG: osx_64_mpiopenmpinumpy1.17python3.8.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.18python3.8.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.18python3.8.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
       osx_64_mpiopenmpinumpy1.19python3.7.____73_pypyscalarcomplex:
         CONFIG: osx_64_mpiopenmpinumpy1.19python3.7.____73_pypyscalarcomplex
