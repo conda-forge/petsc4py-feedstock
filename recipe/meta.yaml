@@ -18,7 +18,7 @@ source:
 
 build:
   number: {{ build }}
-  script: PETSC_DIR=$PREFIX pip -v install --no-deps .
+  script: PETSC_DIR=$PREFIX {{ PYTHON }} -m pip -v install --no-deps .
   skip: true  # [win]
   string: {{ scalar }}_h{{ PKG_HASH }}_{{ build }}
   track_features:
