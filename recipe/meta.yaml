@@ -1,7 +1,7 @@
 {% set name = "petsc4py" %}
 {% set version = "3.16.5" %}
 {% set sha256 = "f0ab5c5947ee0b58e51f741f46fab0d32e6458245e8f8b81fcf3da77bad50d25" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
 {% if scalar == "real" %}
@@ -13,7 +13,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: petsc4py-{{ version }}.tar
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
@@ -28,7 +27,11 @@ build:
 requirements:
   build:
     - {{ compiler('fortran') }}
-    - {{ compiler('c') }}
+    - {{ compiler('c') }}\
+    - python                             # [build_platform != target_platform]
+    - cross-python_{{ target_platform }} # [build_platform != target_platform]
+    - numpy                              # [build_platform != target_platform]
+    - {{ mpi }}  # [mpi == 'openmpi' and build_platform != target_platform]
   host:
     - python
     - pip
