@@ -68,7 +68,43 @@ jobs:
       osx_64_mpiopenmpinumpy1.21python3.10.____cpythonscalarreal:
         CONFIG: osx_64_mpiopenmpinumpy1.21python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-    maxParallel: 12
+      osx_arm64_mpimpichnumpy1.19python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.19python3.8.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpimpichnumpy1.19python3.8.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.19python3.8.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpimpichnumpy1.19python3.9.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.19python3.9.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpimpichnumpy1.19python3.9.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.19python3.9.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpimpichnumpy1.21python3.10.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.21python3.10.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpimpichnumpy1.21python3.10.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.21python3.10.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.19python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.19python3.8.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.19python3.8.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.19python3.8.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.19python3.9.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.19python3.9.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.19python3.9.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.19python3.9.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.21python3.10.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.21python3.10.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.21python3.10.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.21python3.10.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+    maxParallel: 17
   timeoutInMinutes: 360
 
   steps:

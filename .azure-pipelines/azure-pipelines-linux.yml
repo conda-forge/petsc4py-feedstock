@@ -248,7 +248,7 @@ jobs:
         CONFIG: linux_ppc64le_mpiopenmpinumpy1.21python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
-    maxParallel: 38
+    maxParallel: 33
   timeoutInMinutes: 360
 
   steps:
