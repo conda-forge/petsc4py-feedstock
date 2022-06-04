@@ -18,7 +18,10 @@ source:
 
 build:
   number: {{ build }}
-  script: PETSC_DIR=$PREFIX {{ PYTHON }} -m pip -v install --no-deps .
+  script:
+    - export OPAL_PREFIX=$PREFIX  # [mpi == 'openmpi']
+    - export PETSC_DIR=$PREFIX
+    - {{ PYTHON }} -m pip -v install --no-deps .
   skip: true  # [win]
   string: {{ scalar }}_h{{ PKG_HASH }}_{{ build }}
   track_features:
