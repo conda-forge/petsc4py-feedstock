@@ -1,7 +1,7 @@
 {% set name = "petsc4py" %}
 {% set version = "3.17.3" %}
 {% set sha256 = "c588ab4a17deebe7f0a57f966b3368d88f01d1a1c09f220f63fe8e3b37a32899" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
 {% if scalar == "real" %}
@@ -40,12 +40,12 @@ requirements:
     - pip
     - numpy
     - {{ mpi }}
-    - petsc {{ version_xy }}.* *{{ scalar }}*
+    - petsc {{ version_xy }}.* {{ scalar }}_*
   run:
     - python
     - {{ pin_compatible('numpy') }}
     - {{ mpi }}
-    - petsc * *{{ scalar }}*  # pinned by petsc run_exports
+    - petsc  # pinned by petsc run_exports
   run_constrained:
     - mpi4py >=3.0.1
 
