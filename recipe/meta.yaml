@@ -1,7 +1,7 @@
 {% set name = "petsc4py" %}
 {% set version = "3.17.4" %}
 {% set sha256 = "216c3da074557946615d37d0826bc89f1f2e599323e2dacbdc45326d78bd50c6" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
 {% if scalar == "real" %}
@@ -19,6 +19,7 @@ source:
 build:
   number: {{ build }}
   script:
+    - {{ PYTHON }} conf/cythonize.py
     - export OPAL_PREFIX=$PREFIX  # [mpi == 'openmpi']
     - export PETSC_DIR=$PREFIX
     - {{ PYTHON }} -m pip -v install --no-deps .
@@ -32,11 +33,13 @@ requirements:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
     - python                              # [build_platform != target_platform]
+    - cython                              # [build_platform != target_platform]
     - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - numpy                               # [build_platform != target_platform]
     - {{ mpi }}  # [mpi == 'openmpi' and build_platform != target_platform]
   host:
     - python
+    - cython
     - pip
     - numpy
     - {{ mpi }}
