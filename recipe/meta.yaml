@@ -19,6 +19,7 @@ source:
 build:
   number: {{ build }}
   script:
+    - {{ PYTHON }} conf/cythonize.py
     - export OPAL_PREFIX=$PREFIX  # [mpi == 'openmpi']
     - export PETSC_DIR=$PREFIX
     - {{ PYTHON }} -m pip -v install --no-deps .
@@ -32,11 +33,13 @@ requirements:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
     - python                              # [build_platform != target_platform]
+    - cython                              # [build_platform != target_platform]
     - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - numpy                               # [build_platform != target_platform]
     - {{ mpi }}  # [mpi == 'openmpi' and build_platform != target_platform]
   host:
     - python
+    - cython
     - pip
     - numpy
     - {{ mpi }}
