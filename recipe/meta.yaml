@@ -1,6 +1,6 @@
 {% set name = "petsc4py" %}
-{% set version = "3.18.2" %}
-{% set sha256 = "1b6761b02ec6ef9099e2a048e234065c1c4096ace01e52e353624b80417cceec" %}
+{% set version = "3.18.3" %}
+{% set sha256 = "853ab9620c4832cbfe1f490edde827a505c8a376cc1a7b4fa6406faac9059433" %}
 {% set build = 0 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
