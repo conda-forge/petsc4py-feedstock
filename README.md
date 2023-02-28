@@ -1,11 +1,11 @@
-About petsc4py
-==============
+About petsc4py-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/petsc4py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://bitbucket.org/petsc/petsc4py
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/petsc4py-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python bindings for PETSc
 
