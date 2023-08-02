@@ -1,6 +1,6 @@
 {% set name = "petsc4py" %}
-{% set version = "3.19.2" %}
-{% set sha256 = "5f207eb95f87ddafa32229681a95af61912871cd7fbd38780bc63019dad3e7b8" %}
+{% set version = "3.19.4" %}  # TODO: remove Cython pinning for petsc4py-3.20.0
+{% set sha256 = "5621ddee63d0c631d2e8fed2d5d9763b183ad164c227dde8d3abcdb6c35c5ffb" %}
 {% set build = 0 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
@@ -33,13 +33,13 @@ requirements:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
     - python                              # [build_platform != target_platform]
-    - cython                              # [build_platform != target_platform]
+    - cython 0.29.36                      # [build_platform != target_platform]
     - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - numpy                               # [build_platform != target_platform]
     - {{ mpi }}  # [mpi == 'openmpi' and build_platform != target_platform]
   host:
     - python
-    - cython
+    - cython 0.29.36
     - pip
     - numpy
     - {{ mpi }}
