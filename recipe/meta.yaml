@@ -1,6 +1,6 @@
 {% set name = "petsc4py" %}
-{% set version = "3.20.0" %}  # TODO: remove Cython pinning for petsc4py-3.20.0
-{% set sha256 = "c2461eef3977ae5c214ad252520adbb92ec3a31d00e79391dd92535077bbf03e" %}
+{% set version = "3.20.1" %}  # TODO: remove Cython pinning for petsc4py-3.20.0
+{% set sha256 = "dcc9092040d13130496f1961b79c36468f383b6ede398080e004f1966c06ad38" %}
 {% set build = 0 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
