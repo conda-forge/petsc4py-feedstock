@@ -1,12 +1,9 @@
 {% set name = "petsc4py" %}
 {% set version = "3.21.1" %}  # TODO: remove Cython pinning for petsc4py-3.20.0
 {% set sha256 = "ea8c6afb16541167d39f87d5fcad98c32d856fe8a2173504ef2a31c16647d53d" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
-{% if scalar == "real" %}
-{% set build = build + 100 %}
-{% endif %}
 
 package:
   name: petsc4py
@@ -24,9 +21,12 @@ build:
     - export PETSC_DIR=$PREFIX
     - {{ PYTHON }} -m pip -v install --no-deps .
   skip: true  # [win]
-  string: {{ scalar }}_h{{ PKG_HASH }}_{{ build }}
+  skip: true  # [osx and device != "host"]
+  string: {{ scalar }}_h{{ PKG_HASH }}_{{ build }}               # [device == 'host']
+  string: {{ device }}_{{ scalar }}_h{{ PKG_HASH }}_{{ build }}  # [device != 'host']
   track_features:
     - petsc4py_complex  # [scalar == "complex"]
+    - petsc4py_cuda     # [device != "host"]
 
 requirements:
   build:
@@ -44,7 +44,8 @@ requirements:
     - pip
     - numpy
     - {{ mpi }}
-    - petsc {{ version_xy }}.* {{ scalar }}_*
+    - petsc {{ version_xy }}.* {{ scalar }}_*               # [device == 'host']
+    - petsc {{ version_xy }}.* {{ device }}_{{ scalar }}_*  # [device != 'host']
   run:
     - python
     - {{ pin_compatible('numpy') }}
@@ -65,3 +66,4 @@ extra:
     - minrk
     - davidbrochart
     - SylvainCorlay
+    - stefanozampini
