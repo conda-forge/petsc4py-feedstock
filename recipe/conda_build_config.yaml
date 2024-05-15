@@ -8,5 +8,5 @@ scalar:
 
 device:
   - host
-  - cuda11
-  - cuda12
+  - cuda11  # [linux]
+  - cuda12  # [linux]
