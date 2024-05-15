@@ -8,137 +8,137 @@ jobs:
     vmImage: macOS-12
   strategy:
     matrix:
-      osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarcomplex:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarcomplex
+      osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal
+      osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal
+      osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarreal:
+        CONFIG: osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex
+      osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
+      osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
+        CONFIG: osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
+        CONFIG: osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal
+      osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex
+      osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal
+      osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal
+      osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal
+      osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal
+      osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex
+      osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal
+      osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
     maxParallel: 8
   timeoutInMinutes: 360

@@ -1539,311 +1539,311 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex</td>
+              <td>osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal</td>
+              <td>osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.10.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex</td>
+              <td>osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal</td>
+              <td>osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.8.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarcomplex</td>
+              <td>osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal</td>
+              <td>osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.9.____73_pypyscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex</td>
+              <td>osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal</td>
+              <td>osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.9.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex</td>
+              <td>osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal</td>
+              <td>osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.23python3.11.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex</td>
+              <td>osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal</td>
+              <td>osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.26python3.12.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal</td>
+              <td>osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex</td>
+              <td>osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal</td>
+              <td>osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex</td>
+              <td>osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal</td>
+              <td>osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal</td>
+              <td>osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.10.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal</td>
+              <td>osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.8.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal</td>
+              <td>osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.9.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal</td>
+              <td>osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.23python3.11.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal</td>
+              <td>osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.26python3.12.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal</td>
+              <td>osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.10.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal</td>
+              <td>osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.8.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal</td>
+              <td>osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.9.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal</td>
+              <td>osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.23python3.11.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex</td>
+              <td>osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal</td>
+              <td>osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.26python3.12.____cpythonscalarreal" alt="variant">
                 </a>
               </td>
             </tr>
