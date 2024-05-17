@@ -1,7 +1,7 @@
 {% set name = "petsc4py" %}
 {% set version = "3.21.1" %}  # TODO: remove Cython pinning for petsc4py-3.20.0
 {% set sha256 = "ea8c6afb16541167d39f87d5fcad98c32d856fe8a2173504ef2a31c16647d53d" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
 {% if scalar == "real" %}
@@ -47,7 +47,6 @@ requirements:
     - petsc {{ version_xy }}.* {{ scalar }}_*
   run:
     - python
-    - {{ pin_compatible('numpy') }}
     - {{ mpi }}
     - petsc  # pinned by petsc run_exports
   run_constrained:
