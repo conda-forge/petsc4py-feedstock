@@ -8,14 +8,6 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_devicecuda11mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
         CONFIG: linux_64_devicecuda11mpimpichnumpy1.22python3.8.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -32,36 +24,36 @@ jobs:
         CONFIG: linux_64_devicecuda11mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_devicecuda11mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -80,36 +72,36 @@ jobs:
         CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_devicecuda12mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -128,36 +120,36 @@ jobs:
         CONFIG: linux_64_devicecuda12mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_devicecuda12mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -176,36 +168,36 @@ jobs:
         CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -224,36 +216,36 @@ jobs:
         CONFIG: linux_64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -272,36 +264,36 @@ jobs:
         CONFIG: linux_64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_devicecuda11mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -320,36 +312,36 @@ jobs:
         CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -368,36 +360,36 @@ jobs:
         CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_devicecuda12mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -416,36 +408,36 @@ jobs:
         CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -464,36 +456,36 @@ jobs:
         CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -512,36 +504,36 @@ jobs:
         CONFIG: linux_aarch64_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_aarch64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -560,36 +552,36 @@ jobs:
         CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_aarch64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_aarch64_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -608,36 +600,36 @@ jobs:
         CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -656,36 +648,36 @@ jobs:
         CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda11mpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -704,36 +696,36 @@ jobs:
         CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -752,36 +744,36 @@ jobs:
         CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarcomplex
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.22python3.10.____cpythonscalarreal
+      linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicecuda12mpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_devicehostmpimpichnumpy1.22python3.8.____cpythonscalarcomplex:
@@ -800,36 +792,36 @@ jobs:
         CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.22python3.9.____cpythonscalarreal
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.23python3.11.____cpythonscalarreal
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpimpichnumpy1.26python3.12.____cpythonscalarreal
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.12.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.10.____cpythonscalarreal
+      linux_ppc64le_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpimpichnumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.8.____cpythonscalarcomplex:
@@ -848,28 +840,36 @@ jobs:
         CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.9.____73_pypyscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.22python3.9.____cpythonscalarreal
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.23python3.11.____cpythonscalarreal
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.11.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarcomplex
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_ppc64le_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy1.26python3.12.____cpythonscalarreal
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.12.____cpythonscalarreal
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarcomplex
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_devicehostmpiopenmpinumpy2.0python3.9.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
     maxParallel: 42
