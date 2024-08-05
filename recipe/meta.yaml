@@ -1,7 +1,7 @@
 {% set name = "petsc4py" %}
 {% set version = "3.21.4" %}
 {% set sha256 = "4ba702558cc91186912eeacef26b171255f3adaa7ea02bec40c2f4c919eccecd" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
 
@@ -45,9 +45,17 @@ requirements:
   run:
     - python
     - {{ mpi }}
+    # petsc4py injects a stricter dependency range than the numpy ABI
+    - {{ pin_compatible('numpy', min_pin='x') }}
     - petsc  # pinned by petsc run_exports
   run_constrained:
     - mpi4py >=3.0.1
+
+test:
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://bitbucket.org/petsc/petsc4py
