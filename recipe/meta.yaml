@@ -1,7 +1,7 @@
 {% set name = "petsc4py" %}
 {% set version = "3.21.4" %}
 {% set sha256 = "4ba702558cc91186912eeacef26b171255f3adaa7ea02bec40c2f4c919eccecd" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
 
@@ -12,6 +12,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    - MR7745.patch
 
 build:
   number: {{ build }}
@@ -48,6 +50,12 @@ requirements:
     - petsc  # pinned by petsc run_exports
   run_constrained:
     - mpi4py >=3.0.1
+
+test:
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://bitbucket.org/petsc/petsc4py
