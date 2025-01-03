@@ -1,6 +1,6 @@
 {% set name = "petsc4py" %}
-{% set version = "3.22.1" %}
-{% set sha256 = "a7fd321458b72356e46c4bc5bd93d173c9c2f91018cf21f614a631fe2aa6466a" %}
+{% set version = "3.22.2" %}
+{% set sha256 = "6c56f62ae8819069062436d362a2cc7e44f700026eed72a903c3803afbe59fc3" %}
 {% set build = 0 %}
 
 {% set version_xy = version.rsplit('.', 1)[0] %}
@@ -10,7 +10,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
