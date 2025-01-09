@@ -3,7 +3,7 @@ About petsc4py-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/petsc4py-feedstock/blob/main/LICENSE.txt)
 
-Home: https://bitbucket.org/petsc/petsc4py
+Home: https://petsc.org/release/petsc4py/
 
 Package license: BSD-2-Clause
 
