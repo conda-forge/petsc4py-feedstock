@@ -1,5 +1,3 @@
-schema_version: 1
-
 context:
   name: petsc4py
   version: 3.22.2
@@ -48,6 +46,8 @@ requirements:
         - petsc ${{ version_xy }}.* ${{ scalar }}_*
       else:
         - petsc ${{ version_xy }}.* ${{ device }}_${{ scalar }}_*
+  run:
+    - python
   run_constraints:
     - mpi4py >=3.0.1
 
@@ -70,4 +70,3 @@ extra:
     - davidbrochart
     - SylvainCorlay
     - stefanozampini
-
