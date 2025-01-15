@@ -2,7 +2,7 @@ context:
   name: petsc4py
   version: 3.22.2
   build: 1
-  version_xy: ${{ version | split(".") | slice(2) | first | join(".") }}
+  version_xy: ${{ (version | split('.'))[:2] | join('.') }}
 
 package:
   name: petsc4py
