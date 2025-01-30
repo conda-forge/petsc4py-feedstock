@@ -1,7 +1,7 @@
 context:
   name: petsc4py
-  version: 3.22.2
-  build: 1
+  version: "3.22.3"
+  build: 0
   version_xy: ${{ (version | split('.'))[:2] | join('.') }}
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 6c56f62ae8819069062436d362a2cc7e44f700026eed72a903c3803afbe59fc3
+  sha256: 7ed43cd027f82033e70f53c99fb530713dab743869d0c0827d22bbd5fb651c43
 
 build:
   number: ${{ build }}
@@ -32,7 +32,7 @@ requirements:
         - cross-python_${{ target_platform }}
         - numpy
     - if: mpi == 'openmpi' and build_platform != target_platform
-      then: 
+      then:
         - ${{ mpi }}
   host:
     - python
@@ -42,7 +42,7 @@ requirements:
     - numpy
     - ${{ mpi }}
     - if: device == 'host'
-      then: 
+      then:
         - petsc ${{ version_xy }}.* ${{ scalar }}_*
       else:
         - petsc ${{ version_xy }}.* ${{ device }}_${{ scalar }}_*
