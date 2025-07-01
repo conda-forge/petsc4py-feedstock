@@ -1,6 +1,6 @@
 context:
   name: petsc4py
-  version: "3.23.3"
+  version: "3.23.4"
   build: 0
   version_xy: ${{ (version | split('.'))[:2] | join('.') }}
 
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: e46914d30e55a91cd0100f7fb0bc99423e733e1a5c082cd69c6fb8f1b1a5b970
+  sha256: e91a7020873131eb3afdd108ab6b523e1d136e67a3283a703f9bf330ae9eaccd
 
 build:
   number: ${{ build }}
