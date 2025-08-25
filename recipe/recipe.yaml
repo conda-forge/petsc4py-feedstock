@@ -1,8 +1,9 @@
 context:
   name: petsc4py
   version: "3.23.5"
-  build: 0
+  build: 1
   version_xy: ${{ (version | split('.'))[:2] | join('.') }}
+  python_min: "3.10"
 
 package:
   name: petsc4py
@@ -16,11 +17,16 @@ source:
 
 build:
   number: ${{ build }}
-  skip: win
+  skip: win or (is_abi3 and not match(python, python_min + ".*"))
+  python:
+    version_independent: true
   script:
+    content:
     - ${{ PYTHON }} conf/cythonize.py
-    - export PETSC_DIR=$PREFIX
     - ${{ PYTHON }} -m pip -v install --no-deps .
+    env:
+      PETSC_DIR: "$PREFIX"
+      PETSC4PY_BUILD_PYSABI: "1"
 
 requirements:
   build:
@@ -38,6 +44,7 @@ requirements:
             - ${{ mpi }}
   host:
     - python
+    - python-abi3
     - cython
     - pip
     - setuptools
@@ -58,7 +65,51 @@ tests:
       pip_check: true
       imports:
         - petsc4py
+        - petsc4py.PETSc
+  
+  - script:
+      file: run_test
+      env: 
+        CONDA_BUILD: "1"
+    files:
+      source:
+        - test/test_mat_schur.py
 
+  - if: is_abi3
+    then:
+      - script:
+          # verify abi3 against 3.11 instead of 3.10
+          # PyObject_GetBuffer for 3.10 is abi-compatible with 3.11,
+          # but not part of the 3.10 stable ABI
+          - abi3audit $PREFIX/lib/python3.13/site-packages/petsc4py/lib/*.so -s -v --assume-minimum-abi3 3.11
+        requirements:
+          run:
+            - python 3.13.*
+            - abi3audit
+
+      # for abi3, run tests against more Pythons
+      - script:
+          file: run_test
+          env: 
+            CONDA_BUILD: "1"
+        files:
+          source:
+            - test/test_mat_schur.py
+        requirements:
+          run:
+            - python 3.11.*
+    
+      - script:
+          file: run_test
+          env: 
+            CONDA_BUILD: "1"
+        files:
+          source:
+            - test/test_mat_schur.py
+        requirements:
+          run:
+            - python 3.13.*
+    
 about:
   summary: Python bindings for PETSc
   license: BSD-2-Clause
