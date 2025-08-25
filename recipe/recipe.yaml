@@ -3,7 +3,9 @@ context:
   version: "3.23.5"
   build: 1
   version_xy: ${{ (version | split('.'))[:2] | join('.') }}
-  python_min: "3.10"
+  python_min: ${{ python_min | default("3.10") }}
+  abi3_tag: cp${{ python_min | split(".") | join("") }}
+  build_abi3: ${{ is_abi3 and match(python, ">=" + python_min) }}
 
 package:
   name: petsc4py
@@ -19,14 +21,14 @@ build:
   number: ${{ build }}
   skip: win or (is_abi3 and not match(python, python_min + ".*"))
   python:
-    version_independent: true
+    version_independent: ${{ build_abi3 }}
   script:
     content:
     - ${{ PYTHON }} conf/cythonize.py
     - ${{ PYTHON }} -m pip -v install --no-deps .
     env:
       PETSC_DIR: "$PREFIX"
-      PETSC4PY_BUILD_PYSABI: "1"
+      PETSC4PY_BUILD_PYSABI: ${{ abi3_tag }}
 
 requirements:
   build:
@@ -44,7 +46,8 @@ requirements:
             - ${{ mpi }}
   host:
     - python
-    - python-abi3
+    - if: build_abi3
+      then: python-abi3
     - cython
     - pip
     - setuptools
@@ -75,7 +78,7 @@ tests:
       source:
         - test/test_mat_schur.py
 
-  - if: is_abi3
+  - if: build_abi3
     then:
       - script:
           # verify abi3 against 3.11 instead of 3.10
@@ -97,7 +100,7 @@ tests:
             - test/test_mat_schur.py
         requirements:
           run:
-            - python 3.11.*
+            - python ${{ python_min }}.*
     
       - script:
           file: run_test
