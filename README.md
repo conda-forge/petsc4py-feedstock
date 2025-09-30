@@ -27,90 +27,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -122,48 +38,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -181,48 +55,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -234,48 +66,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -293,48 +83,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -346,48 +94,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -405,132 +111,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -542,48 +122,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -601,48 +139,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -654,48 +150,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -713,48 +167,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -766,48 +178,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -825,132 +195,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -962,48 +206,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -1021,48 +223,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -1074,48 +234,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -1133,48 +251,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -1186,48 +262,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -1245,76 +279,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -1326,48 +290,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -1385,76 +307,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpimpichpython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rcmpiopenmpipython3.14.____cp314scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -1469,48 +321,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempimpichpython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempimpichpython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempimpichpython3.13.____cp313scalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.10.____cpythonscalarcomplex</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
@@ -1522,48 +332,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.10.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.11.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.12.____cpythonscalarreal" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarcomplex</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarcomplex" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarreal</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=772&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/petsc4py-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgempiopenmpipython3.13.____cp313scalarreal" alt="variant">
                 </a>
               </td>
             </tr>
