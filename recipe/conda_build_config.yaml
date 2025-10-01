@@ -8,5 +8,5 @@ scalar:
 
 device:
   - host
-  - cuda11  # [linux]
-  - cuda12  # [linux]
+  - cuda12  # [linux and not ppc64le]
+  - cuda13  # [linux and not ppc64le]

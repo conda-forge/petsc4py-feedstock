@@ -11,7 +11,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 device:
-- cuda12
+- cuda13
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 fortran_compiler:
@@ -37,7 +37,7 @@ python:
 python_min:
 - '3.10'
 scalar:
-- real
+- complex
 target_platform:
 - linux-64
 zip_keys:

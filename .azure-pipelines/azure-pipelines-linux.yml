@@ -8,148 +8,12 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex:
         CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal:
         CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarcomplex:
@@ -160,28 +24,20 @@ jobs:
         CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex
+      linux_64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal
+      linux_64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarreal:
+        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex
+      linux_64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarcomplex:
+        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal
+      linux_64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarreal:
+        CONFIG: linux_64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex:
@@ -192,172 +48,12 @@ jobs:
         CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarcomplex:
         CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarreal:
         CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex:
@@ -368,30 +64,6 @@ jobs:
         CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarcomplex:
         CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -400,28 +72,20 @@ jobs:
         CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex
+      linux_aarch64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal
+      linux_aarch64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda13mpimpichpython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex
+      linux_aarch64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarcomplex:
+        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal
+      linux_aarch64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarreal:
+        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicecuda13mpiopenmpipython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex:
@@ -432,30 +96,6 @@ jobs:
         CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarcomplex:
         CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
@@ -464,271 +104,22 @@ jobs:
         CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex
+      linux_ppc64le_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal
+      linux_ppc64le_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_channel_sourcesconda-forgempimpichpython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex
+      linux_ppc64le_channel_sourcesconda-forgempiopenmpipython3.10.____cpythonscalarcomplex:
+        CONFIG: linux_ppc64le_channel_sourcesconda-forgempiopenmpipython3.10.____cpythonscalarcomplex
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal
+      linux_ppc64le_channel_sourcesconda-forgempiopenmpipython3.10.____cpythonscalarreal:
+        CONFIG: linux_ppc64le_channel_sourcesconda-forgempiopenmpipython3.10.____cpythonscalarreal
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda11mpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicecuda12mpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpimpichpython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgeconda-forgelabelpython_rcdevicehostmpiopenmpipython3.14.____cp314scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda11mpiopenmpipython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicecuda12mpiopenmpipython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpimpichpython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.10.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.11.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.12.____cpythonscalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarcomplex
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgedevicehostmpiopenmpipython3.13.____cp313scalarreal
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-    maxParallel: 41
   timeoutInMinutes: 360
   variables: {}
 
