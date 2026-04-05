@@ -1,6 +1,6 @@
 context:
   name: petsc4py
-  version: "3.24.6"
+  version: "3.25.0"
   build: 0
   version_xy: ${{ (version | split('.'))[:2] | join('.') }}
   python_min: ${{ python_min | default("3.10") }}
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 1b9594c9aabcd76eaf6092086d8b3f0f2e6c71e3c6088b41dde40fdaf776812a
+  sha256: 8eafd133adbb22a6b7cd963f5eb03f86d959b832c7e5843704caba29b79c5659
 
 build:
   number: ${{ build }}
@@ -62,33 +62,14 @@ requirements:
     - mpi4py >=3.0.1
 
 tests:
-  - python:
-      pip_check: true
-      imports:
-        - petsc4py
-        - petsc4py.PETSc
-
-  - script:
-      file: run_test
-      env:
-        CONDA_BUILD: "1"
-    files:
-      source:
-        - test/test_mat_schur.py
-
-  - if: build_abi3
+  - if: device == 'host'
     then:
-      - script:
-          # verify abi3 against 3.11 instead of 3.10
-          # PyObject_GetBuffer for 3.10 is abi-compatible with 3.11,
-          # but not part of the 3.10 stable ABI
-          - abi3audit $PREFIX/lib/python3.13/site-packages/petsc4py/lib/*.so -s -v --assume-minimum-abi3 3.11
-        requirements:
-          run:
-            - python 3.13.*
-            - abi3audit
-
-      # for abi3, run tests against more Pythons
+      - python:
+          pip_check: true
+          imports:
+            - petsc4py
+            - petsc4py.PETSc
+    
       - script:
           file: run_test
           env:
@@ -96,20 +77,47 @@ tests:
         files:
           source:
             - test/test_mat_schur.py
-        requirements:
-          run:
-            - python ${{ python_min }}.*
+    
+      - if: build_abi3
+        then:
+          - script:
+              # verify abi3 against 3.11 instead of 3.10
+              # PyObject_GetBuffer for 3.10 is abi-compatible with 3.11,
+              # but not part of the 3.10 stable ABI
+              - abi3audit $PREFIX/lib/python3.13/site-packages/petsc4py/lib/*.so -s -v --assume-minimum-abi3 3.11
+            requirements:
+              run:
+                - python 3.13.*
+                - abi3audit
+    
+          # for abi3, run tests against more Pythons
+          - script:
+              file: run_test
+              env:
+                CONDA_BUILD: "1"
+            files:
+              source:
+                - test/test_mat_schur.py
+            requirements:
+              run:
+                - python ${{ python_min }}.*
+    
+          - script:
+              file: run_test
+              env:
+                CONDA_BUILD: "1"
+            files:
+              source:
+                - test/test_mat_schur.py
+            requirements:
+              run:
+                - python 3.13.*
+    else:
+      # cuda builds are ~untestable
+      # because petsc 3.25 links libnvidia-ml, a driver library
+      - python:
+          pip_check: true
 
-      - script:
-          file: run_test
-          env:
-            CONDA_BUILD: "1"
-        files:
-          source:
-            - test/test_mat_schur.py
-        requirements:
-          run:
-            - python 3.13.*
 
 about:
   summary: Python bindings for PETSc
