@@ -72,8 +72,6 @@ tests:
 
       - script:
           file: run_test
-          env:
-            CONDA_BUILD: "1"
         files:
           source:
             - test/test_mat_schur.py
@@ -93,8 +91,6 @@ tests:
           # for abi3, run tests against more Pythons
           - script:
               file: run_test
-              env:
-                CONDA_BUILD: "1"
             files:
               source:
                 - test/test_mat_schur.py
@@ -104,8 +100,6 @@ tests:
 
           - script:
               file: run_test
-              env:
-                CONDA_BUILD: "1"
             files:
               source:
                 - test/test_mat_schur.py
