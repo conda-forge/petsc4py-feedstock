@@ -13,7 +13,7 @@ channel_targets:
 device:
 - host
 docker_image:
-- quay.io/condaforge/linux-anvil-aarch64:alma9
+- quay.io/condaforge/linux-anvil-aarch64:alma10
 fortran_compiler:
 - gfortran
 fortran_compiler_version:
