@@ -3,7 +3,7 @@ context:
   version: "3.26.0"
   build: 0
   version_xy: ${{ (version | split('.'))[:2] | join('.') }}
-  python_min: ${{ python_min | default("3.10") }}
+  python_min: ${{ python_min | default("3.11") }}
   abi3_tag: cp${{ python_min | split(".") | join("") }}
   build_abi3: ${{ is_abi3 and match(python, ">=" + python_min) }}
 
@@ -64,31 +64,24 @@ requirements:
 tests:
   - if: device == 'host'
     then:
-      - python:
-          pip_check: true
-          imports:
-            - petsc4py
-            - petsc4py.PETSc
-
-      - script:
-          file: run_test
-        files:
-          source:
-            - test/test_mat_schur.py
-
       - if: build_abi3
         then:
+          - python:
+              imports:
+                - petsc4py
+                - petsc4py.PETSc
+              pip_check: true
+              python_version:
+                - ${{ python_min }}.*
+                - "*"
+
           - script:
-              # verify abi3 against 3.11 instead of 3.10
-              # PyObject_GetBuffer for 3.10 is abi-compatible with 3.11,
-              # but not part of the 3.10 stable ABI
-              - abi3audit $PREFIX/lib/python3.14/site-packages/petsc4py/lib/*.so -s -v --assume-minimum-abi3 3.11
+              - abi3audit $SP_DIR/petsc4py/lib/*.so -s -v --assume-minimum-abi3 ${{ python_min }}
             requirements:
               run:
-                - python 3.14.*
                 - abi3audit
+                - python 3.*
 
-          # for abi3, run tests against more Pythons
           - script:
               file: run_test
             files:
@@ -105,10 +98,22 @@ tests:
                 - test/test_mat_schur.py
             requirements:
               run:
-                - python 3.14.*
+                - python 3.*
+        else:
+          - python:
+              imports:
+                - petsc4py
+                - petsc4py.PETSc
+              pip_check: true
+
+          - script:
+              file: run_test
+            files:
+              source:
+                - test/test_mat_schur.py
     else:
       # cuda builds are ~untestable
-      # because petsc 3.25 links libnvidia-ml, a driver library
+      # because petsc links libnvidia-ml, a driver library
       - python:
           pip_check: true
 
